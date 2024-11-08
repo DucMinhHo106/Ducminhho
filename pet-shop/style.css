@@ -425,14 +425,14 @@ p {
 .search_email_footer {
     background-color: #003459;
     border-radius: 16px;
-    max-width: 1180px;
     max-height: 136px;
     padding: 32px 32px;
     display: flex;
     justify-content: space-between;
     bottom: 0;
     align-items: center;
-    width: 100%;
+    width: calc(100% - 130*2px);
+    box-sizing: border-box;
     margin: 0 auto 40px auto;
 }
 
