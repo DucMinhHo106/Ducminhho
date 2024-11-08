@@ -59,6 +59,7 @@ p {
     display: flex;
     background-color: #f3f3f3;
     border-radius: 46px;
+    width: 280px;
 }
 
 .find-key input {
