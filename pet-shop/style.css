@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Be VietNam Pro", sans-serif;
 }
 
 p {
@@ -26,10 +27,10 @@ p {
     position: relative;
     justify-content: space-between;
     display: flex;
+    padding: 0 8.125em;
 }
 
 .navbar-left {
-    padding-left: 8.125em;
     height: 6.25em;
     width: 50%;
     display: flex;
@@ -46,31 +47,35 @@ p {
 
 .navbar-right {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 14px;
     align-items: center;
-    padding-right: 8.125em;
     width: 50%;
 }
 
 .find-key {
-    margin-left: 80px;
-    width: 17.5em;
-    background-color: #f3f3f3;
-    border-radius: 2.875em;
-    align-items: center;
     padding: 12px;
+    gap: 12px;
+    display: flex;
+    background-color: #f3f3f3;
+    border-radius: 46px;
 }
-.find-key input{
+
+.find-key input {
     border: none;
     background-color: #f3f3f3;
     height: 20px;
-    padding-left: 12px;
+}
+
+.find-key input:focus {
+    border: none;
+    outline: none;
 }
 
 .join-button {
     border-radius: 4.75em;
     height: auto;
-    padding: 0.63em 28px;
+    padding: 9px 28px;
     color: #fdfdfd;
     background-color: #003459;
     font-family: "Be VietNam Pro";
@@ -458,11 +463,18 @@ p {
     width: 100%;
     max-width: 452px;
 }
-.button_email .input-email input{
+
+.button_email .input-email input {
     height: 20px;
     border: none;
     width: 100%;
 }
+
+.button_email .input-email input:focus {
+    border: none;
+    outline: none;
+}
+
 .button_email button {
     background-color: #002A48;
     color: white;
@@ -473,13 +485,15 @@ p {
     padding: 12px 27.5px;
     width: auto;
 }
-.nav-footer{
+
+.nav-footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
     border-bottom: 1px solid #CCD1D2
 }
-.nav-footer_left{
+
+.nav-footer_left {
     font-family: "Be Vietnam Pro";
     font-size: 16px;
     font-weight: 500;
@@ -487,11 +501,13 @@ p {
     width: auto;
     gap: 60px;
 }
-.nav-footer_right{
+
+.nav-footer_right {
     display: flex;
     gap: 40px;
 }
-.end{
+
+.end {
     justify-content: space-between;
     font-family: "Be Vietnam Pro";
     font-size: 14px;
@@ -500,7 +516,8 @@ p {
     display: flex;
     padding: 40px 0;
 }
-.end-right{
+
+.end-right {
     display: flex;
     gap: 32px;
 }
