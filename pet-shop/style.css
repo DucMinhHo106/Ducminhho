@@ -10,9 +10,14 @@ p {
     line-height: 1.5;
 }
 
+body{
+    min-width: 1440px;
+}
+
 /* background */
 .back_gr {
     width: 100%;
+    min-width: 1440px;
     height: 695px;
     position: absolute;
     z-index: -1;
